@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="avflaking.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.73851712"
+     inkscape:cx="396.74097"
+     inkscape:cy="561.93687"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Peel Off"
+       inkscape:menu="Materials"
+       inkscape:menu-tooltip="Peeling painting on a wall"
+       height="1.1057735"
+       width="1.1052698"
+       y="-0.052886762"
+       x="-0.052634922"
+       style="color-interpolation-filters:sRGB;"
+       id="filter804">
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="0.07"
+         result="result1"
+         id="feTurbulence776" />
+      <feGaussianBlur
+         stdDeviation="3"
+         in="SourceAlpha"
+         id="feGaussianBlur778" />
+      <feComposite
+         in2="result1"
+         operator="in"
+         id="feComposite780" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -9"
+         result="result1"
+         id="feColorMatrix782" />
+      <feComposite
+         in="SourceGraphic"
+         operator="in"
+         result="result1"
+         in2="result1"
+         id="feComposite784" />
+      <feTurbulence
+         baseFrequency="0.04"
+         numOctaves="5"
+         result="result0"
+         type="fractalNoise"
+         id="feTurbulence786" />
+      <feDisplacementMap
+         in2="result0"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="35"
+         result="result2"
+         id="feDisplacementMap788" />
+      <feColorMatrix
+         result="result3"
+         values="4 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0.7 0 "
+         id="feColorMatrix790" />
+      <feGaussianBlur
+         stdDeviation="0.3"
+         in="result1"
+         result="result4"
+         id="feGaussianBlur792" />
+      <feComposite
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic"
+         operator="xor"
+         id="feComposite794" />
+      <feDiffuseLighting
+         in="fbSourceGraphic"
+         diffuseConstant="2"
+         result="result3"
+         surfaceScale="5"
+         id="feDiffuseLighting798">
+        <feDistantLight
+           azimuth="225"
+           elevation="25"
+           id="feDistantLight796" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="fbSourceGraphic"
+         in="result3"
+         mode="darken"
+         result="result7"
+         id="feBlend800" />
+      <feComposite
+         in2="fbSourceGraphic"
+         operator="in"
+         in="result7"
+         id="feComposite802" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Lag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ececec;fill-rule:evenodd;stroke-width:0.264583;filter:url(#filter804)"
+       id="rect70"
+       width="150.47044"
+       height="149.75392"
+       x="24.720144"
+       y="24.720144" />
+  </g>
+</svg>

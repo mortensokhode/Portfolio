@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter598"
+       x="-0.0079749881"
+       y="-0.0080131458"
+       width="1.01595"
+       height="1.0160263">
+      <feTurbulence
+         baseFrequency="0.2"
+         seed="300"
+         numOctaves="7"
+         result="result1"
+         type="turbulence"
+         id="feTurbulence580" />
+      <feDisplacementMap
+         in2="result1"
+         xChannelSelector="R"
+         result="result6"
+         id="feDisplacementMap582" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="screen"
+         in2="SourceGraphic"
+         in="result6"
+         id="feBlend584" />
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4 -2.5 "
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix586" />
+      <feGaussianBlur
+         stdDeviation="0.5"
+         in="fbSourceGraphicAlpha"
+         result="result0"
+         id="feGaussianBlur588" />
+      <feDiffuseLighting
+         result="result5"
+         surfaceScale="15"
+         diffuseConstant="0.4"
+         id="feDiffuseLighting592">
+        <feDistantLight
+           azimuth="235"
+           elevation="25"
+           id="feDistantLight590" />
+      </feDiffuseLighting>
+      <feComposite
+         result="result4"
+         operator="arithmetic"
+         k2="0.9"
+         k3="0.9"
+         in2="SourceGraphic"
+         id="feComposite594" />
+      <feComposite
+         in2="SourceGraphic"
+         in="result4"
+         result="result2"
+         operator="in"
+         id="feComposite596" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ececec;fill-rule:evenodd;stroke-width:0.264583;filter:url(#filter598)"
+       id="rect70"
+       width="150.47044"
+       height="149.75392"
+       x="24.720144"
+       y="24.720144" />
+  </g>
+</svg>
