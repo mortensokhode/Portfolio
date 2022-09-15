@@ -3219,3 +3219,13 @@ input, select, textarea {
 			}
 
 	}
+
+.inlineFrameExample {
+	display:none;
+	position: absolute;
+	top: 15vh;
+	left: 15vw;
+	width: 70vw;
+	height: 70vh;
+	z-index: 20;
+}	
